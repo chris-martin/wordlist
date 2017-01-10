@@ -1,0 +1,27 @@
+name: wordlist
+version: 0.1.0.0
+
+license: Apache-2.0
+
+ghc-options: -Wall
+
+dependencies:
+  - base
+  - optparse-applicative
+  - text
+
+library:
+  source-dirs: src
+  exposed-modules:
+    - Wordlist.Args
+
+executables:
+  wordlist:
+    source-dirs: .
+    main: Wordlist.hs
+    dependencies:
+      - base
+      - containers
+      - MonadRandom
+      - text
+      - wordlist
