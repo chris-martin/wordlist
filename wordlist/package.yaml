@@ -21,7 +21,7 @@ executables:
     main: Wordlist.hs
     dependencies:
       - base
-      - containers
       - MonadRandom
       - text
+      - vector
       - wordlist
