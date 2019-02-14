@@ -1,10 +1,27 @@
-name:    wordlist
-version: 0.1.0.0
+name:     wordlist
+version:  0.1.0.1
+synopsis: Command-line tool to get random words
+category: Text, Application
+
+description:
+    A command-line application that outputs a random list
+    of words, designed to generate memorable passwords.
+
+author:     Chris Martin <ch.martin@gmail.com>
+maintainer: Chris Martin <ch.martin@gmail.com>
+
+homepage: https://github.com/chris-martin/wordlist
 
 license: Apache-2.0
+license-file: license.txt
 
 cabal-version: >= 1.10
 build-type: Simple
+
+tested-with:
+    GHC == 8.2.2
+  , GHC == 8.4.3
+  , GHC == 8.6.1
 
 library
   default-language: Haskell2010
@@ -12,7 +29,7 @@ library
   ghc-options: -Wall
 
   build-depends:
-      base >= 4.10 && < 4.12
+      base >= 4.10 && < 4.13
     , optparse-applicative
     , text
 
@@ -26,7 +43,7 @@ executable wordlist
   ghc-options: -Wall
 
   build-depends:
-      base >= 4.10 && < 4.12
+      base >= 4.10 && < 4.13
     , optparse-applicative
     , text
     , base
