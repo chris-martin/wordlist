@@ -61,6 +61,6 @@ executable wordlist
     hs-source-dirs: ./.
 
     build-depends:
-        MonadRandom
+        MonadRandom ^>= 0.5
       , vector
       , wordlist
