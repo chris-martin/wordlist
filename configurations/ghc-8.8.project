@@ -2,5 +2,5 @@ packages: wordlist
 
 constraints:
     base ^>= 4.13
-  , MonadRandom == 0.5
+  , MonadRandom == 0.5.1
   , vector == 0.12.0.*
