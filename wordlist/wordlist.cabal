@@ -57,8 +57,8 @@ library
 
 executable wordlist
     import: base
-    main-is: Wordlist.hs
-    hs-source-dirs: ./.
+    main-is: wordlist.hs
+    hs-source-dirs: exe
 
     build-depends:
         MonadRandom ^>= 0.5.1
