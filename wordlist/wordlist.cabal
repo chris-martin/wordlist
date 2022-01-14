@@ -62,5 +62,5 @@ executable wordlist
 
     build-depends:
         MonadRandom ^>= 0.5
-      , vector
+      , vector ^>= 0.12
       , wordlist

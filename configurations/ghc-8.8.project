@@ -3,3 +3,4 @@ packages: wordlist
 constraints:
     base ^>= 4.13
   , MonadRandom == 0.5
+  , vector == 0.12.0.*

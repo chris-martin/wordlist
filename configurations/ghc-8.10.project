@@ -2,3 +2,4 @@ packages: wordlist
 
 constraints:
     base ^>= 4.14
+  , vector == 0.12.1.*
