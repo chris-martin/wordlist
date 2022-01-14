@@ -48,7 +48,7 @@ common base
     build-depends:
         base >= 4.13 && < 4.17
       , optparse-applicative ^>= 0.16
-      , text
+      , text ^>= 1.2.4
 
 library
     import: base
