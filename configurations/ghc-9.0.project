@@ -1,0 +1,4 @@
+packages: wordlist
+
+constraints:
+    base ^>= 4.15
