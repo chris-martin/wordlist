@@ -1,6 +1,7 @@
 0.1.0.5 - 2022 Jan 14
 
   * Support up to GHC 9.2
+  * Drop support for GHC 8.2, 8.4, 8.6
 
 0.1.0.4 - 2020 Mar 15
 
