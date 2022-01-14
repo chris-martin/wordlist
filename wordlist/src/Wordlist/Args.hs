@@ -11,7 +11,6 @@ module Wordlist.Args
 
 import Control.Applicative (optional)
 import Data.Maybe (fromMaybe)
-import Data.Monoid ((<>))
 import Data.Text (Text)
 import Options.Applicative.Extra (execParser, helper)
 import Options.Applicative.Types (Parser)
