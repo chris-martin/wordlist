@@ -47,7 +47,7 @@ common base
     ghc-options: -Wall
     build-depends:
         base >= 4.13 && < 4.17
-      , optparse-applicative ^>= 0.16
+      , optparse-applicative ^>= 0.16 || ^>= 0.17
       , text ^>= 1.2.4
 
 library
