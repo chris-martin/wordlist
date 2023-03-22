@@ -38,17 +38,15 @@ homepage: https://github.com/chris-martin/wordlist
 license: Apache-2.0
 license-file: license.txt
 
-build-type: Simple
-
 extra-source-files: readme.md
 
 common base
     default-language: Haskell2010
     ghc-options: -Wall
     build-depends:
-        base >= 4.13 && < 4.17
+        base ^>= 4.17
       , optparse-applicative ^>= 0.16 || ^>= 0.17
-      , text ^>= 1.2.4
+      , text ^>= 2
 
 library
     import: base
