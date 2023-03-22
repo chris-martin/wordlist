@@ -1,5 +1,0 @@
-packages: wordlist
-
-constraints:
-    base ^>= 4.15
-  , vector == 0.12.2.*
