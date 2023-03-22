@@ -1,7 +1,7 @@
 cabal-version: 3.0
 
 name:     wordlist
-version:  0.1.0.6
+version:  0.1.0.7
 synopsis: Command-line tool to get random words
 category: Text, Application
 

@@ -1,6 +1,0 @@
-cradle:
-  cabal:
-    - path: "./wordlist/src"
-      component: "lib:wordlist"
-    - path: "./wordlist/exe"
-      component: "exe:wordlist"
