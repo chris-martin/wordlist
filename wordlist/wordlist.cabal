@@ -38,6 +38,6 @@ executable wordlist
     hs-source-dirs: exe
 
     build-depends:
-        MonadRandom ^>= 0.5.1
-      , vector ^>= 0.12
+        MonadRandom ^>= 0.6
+      , vector ^>= 0.13
       , wordlist
